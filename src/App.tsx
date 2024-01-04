@@ -1,4 +1,5 @@
 import { Button, ButtonGroup, Grid, GridItem, Show } from '@chakra-ui/react'
+import NavBar from './components/NavBar';
 
 function App() {
   return (
@@ -8,8 +9,8 @@ function App() {
         base: `"nav" "main"`,//for mobile only one column
         lg: `"nav nav" "aside main"`//for device larger than 1024px
       }}>
-      <GridItem area='nav' bg='coral'>
-        Nav
+      <GridItem area='nav'>
+        <NavBar/>
       </GridItem>
       <Show above='lg'>{/* will be rendered on large screens and above*/}
         <GridItem area='aside' bg='gold'>
