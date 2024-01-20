@@ -8,6 +8,7 @@ On this website, games are displayed thanks to https://rawg.io/ API.
 You can find for each game, which platform you can play the game and its note.
 
 Also, you can seek game by their genre, their platform or by relevance, name, date...
+
 ![image](https://github.com/leojellimann/jelli-game-hub/assets/93252510/1f31411a-a61d-4949-ace5-d17e9e8b0102)
 ![image](https://github.com/leojellimann/jelli-game-hub/assets/93252510/e62739a3-58b5-44b7-bd2f-10bebed84294)
 
